@@ -14,7 +14,7 @@ import com.suvasish.Response.ApiResponse;
 import com.suvasish.Response.FunctionResponse;
 @Service
 public class ChatBotServiceImpl implements ChatBotService{
-	String gemini_api_key="AIzaSyDF14sBlzx9P1_tcAG7TZ8VdYpp3QDxzEY";
+	String gemini_api_key="##########################################";
 	private double convertToDouble(Object value) {
 		if(value instanceof Integer) {
 			return ((Integer)value).doubleValue();
